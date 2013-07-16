@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Gauges-dotnet</id>
+        <version>1.0.0</version>
+        <title>Gauges-dotnet</title>
+        <authors>Sycorr Inc.</authors>
+        <owners>Sycorr Inc.</owners>
+        <licenseUrl>https://raw.github.com/sycorr/gauges-dotnet/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/sycorr/gauges-dotnet</projectUrl>
+        <iconUrl>https://secure.gravatar.com/avatar/78ab8905cc8dbbae7dfa02e6a660c7e4</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Client library for accessing the gaug.es API via C#</description>
+        <summary>Analyze all Your Traffic in Seconds.  Collect and analyze your web traffic for all your sites in real-time using our fast, reliable, hosted system. See overview data for all your sites on a single page.</summary>
+        <releaseNotes>Initial release of API wrapper.  All gaug.es resources have been implemented</releaseNotes>
+        <copyright>2013</copyright>
+        <language>en-US</language>
+        <tags>gaug.es gauges analytics seo traffic aggregation api httpapi</tags>
+        <dependencies>
+            <dependency id="Microsoft.AspNet.WebApi.Client" />
+            <dependency id="Microsoft.Net.Http" />
+            <dependency id="Newtonsoft.Json" />
+        </dependencies>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.0" />
+            <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.0" />
+            <frameworkAssembly assemblyName="System.Net" targetFramework=".NETFramework4.0" />
+            <frameworkAssembly assemblyName="System.Net.Http.WebRequest" targetFramework=".NETFramework4.0" />
+            <frameworkAssembly assemblyName="System.Net.Http.Formatting" targetFramework=".NETFramework4.0" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="lib\Gauges-dotnet.dll" target="lib\Gauges-dotnet.dll" />
+    </files>
+</package>

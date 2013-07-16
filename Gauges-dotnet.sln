@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gauges-dotnet", "src\Gauges-dotnet.csproj", "{5F60EC51-AF33-47ED-8C34-7A997E706A2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gauges-dotnet.tests", "tests\Gauges-dotnet.tests.csproj", "{B1B134B1-70A5-4D7D-9AE0-08A5C0789667}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{121D0CC5-B63A-4E42-A6A9-C3BDA4841434}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F60EC51-AF33-47ED-8C34-7A997E706A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F60EC51-AF33-47ED-8C34-7A997E706A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F60EC51-AF33-47ED-8C34-7A997E706A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F60EC51-AF33-47ED-8C34-7A997E706A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B134B1-70A5-4D7D-9AE0-08A5C0789667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B134B1-70A5-4D7D-9AE0-08A5C0789667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B134B1-70A5-4D7D-9AE0-08A5C0789667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B134B1-70A5-4D7D-9AE0-08A5C0789667}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
